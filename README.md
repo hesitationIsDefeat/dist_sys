@@ -77,8 +77,15 @@ Each component runs as its own Unix process and communicates via **UNIX domain s
 Make sure you have a Unix-like system with GCC installed. Then:
 
 ```bash
-make all
+make
 ```
+
+Or compile separately like:
+```
+make watchdog
+...
+```
+
 
 Or manually compile with:
 
